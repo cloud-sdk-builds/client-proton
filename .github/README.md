@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-proton`](https://www.npmjs.com/package/@aws-sdk/client-proton/v/3.449.0).
+[`@aws-sdk/client-proton`](https://www.npmjs.com/package/@aws-sdk/client-proton/v/3.450.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.449.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.450.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-NOzsCCaIL1Op4iGHw8Oeab6zE/8nivSweaG8+zSs+i4ccJl2PJq/uOnRP3SdGcKQ
+sha384-yjRe7dzRqDoJwFK5HGa8Rr9k+g2tdP1M4QtrpOnrI1Qiouc8uelmsgXCb/oni/Jg
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-proton": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.449.0/index.min.mjs"
+            "@aws-sdk/client-proton": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.450.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.449.0/index.min.mjs": "sha384-NOzsCCaIL1Op4iGHw8Oeab6zE/8nivSweaG8+zSs+i4ccJl2PJq/uOnRP3SdGcKQ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.450.0/index.min.mjs": "sha384-yjRe7dzRqDoJwFK5HGa8Rr9k+g2tdP1M4QtrpOnrI1Qiouc8uelmsgXCb/oni/Jg"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-proton": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.449.0/index.min.mjs"
+                        "@aws-sdk/client-proton": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.450.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.449.0/index.min.mjs": "sha384-NOzsCCaIL1Op4iGHw8Oeab6zE/8nivSweaG8+zSs+i4ccJl2PJq/uOnRP3SdGcKQ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-proton@3.450.0/index.min.mjs": "sha384-yjRe7dzRqDoJwFK5HGa8Rr9k+g2tdP1M4QtrpOnrI1Qiouc8uelmsgXCb/oni/Jg"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.449.0`)
+* Always pin to a specific version (`@3.450.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-proton/blob/refs/tags/3.449.0/LICENSE
+https://github.com/cloud-sdk-builds/client-proton/blob/refs/tags/3.450.0/LICENSE
 ```
 
 ---
